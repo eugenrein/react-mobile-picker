@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-picker",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "An iOS like select box component for React",
   "main": "lib/react-mobile-picker.js",
   "repository": {
@@ -8,8 +8,8 @@
     "url": "adcentury/react-mobile-picker"
   },
   "dependencies": {
-    "react": "^0.14.3",
-    "react-dom": "~0.14.7"
+    "react": "^15.0.1",
+    "react-dom": "~15.0.1"
   },
   "files": [
     "LICENCE",
@@ -28,7 +28,7 @@
     "mobile ui"
   ],
   "devDependencies": {
-    "autoprefixer-loader": "^3.1.0",
+    "autoprefixer": "^6.3.6",
     "babel-core": "^6.3.17",
     "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.0",
@@ -43,6 +43,8 @@
     "express": "^4.13.3",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.2.0",

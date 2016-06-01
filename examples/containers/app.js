@@ -1,6 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import NamePicker from './NamePicker';
 import BirthPicker from './BirthPicker';
+import SortablePicker from './SortablePicker';
 
 export default class App extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
           <p className="description">Here are two examples:</p>
           <NamePicker />
           <BirthPicker />
+          <SortablePicker />
         </main>
       </div>
     );
